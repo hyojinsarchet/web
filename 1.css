@@ -47,3 +47,16 @@ ol {
 .gridtwo {
   padding-left: 30px;
 }
+
+@media (max-width: 800px) {
+  #grid {
+    display: block;
+  }
+  .gridone {
+    border-right: none;
+  }
+  h1 {
+    font-size: 1.5em;
+    border-bottom: none;
+  }
+}
